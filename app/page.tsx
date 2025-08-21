@@ -234,6 +234,7 @@ export default function Portfolio() {
                   key={project.id}
                   className="group cursor-pointer project-item"
                   data-project={project.id}
+                  onMouseOver={() => setActiveProject(project.id)}
                   onMouseEnter={() => setActiveProject(project.id)}
                   onMouseLeave={() => setActiveProject(0)}
                 >
