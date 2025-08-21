@@ -331,12 +331,12 @@ export default function Portfolio() {
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
               <Mail className="text-blue-400 mx-auto mb-4" size={32} />
               <h3 className="text-lg font-semibold mb-2">Gmail</h3>
-              <p className="text-gray-400">erichardin.x</p>
+              <p className="text-gray-400">erichardin.xp</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
               <Github className="text-blue-400 mx-auto mb-4" size={32} />
               <h3 className="text-lg font-semibold mb-2">GitHub</h3>
-              <p className="text-gray-400">@xdravon</p>
+              <p className="text-gray-400">@x-dravon</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
               <FaDiscord className="text-blue-400 mx-auto mb-4" size={32} />
