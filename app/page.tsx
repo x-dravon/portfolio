@@ -329,26 +329,44 @@ export default function Portfolio() {
           </p>
 
           <div className="grid md:grid-cols-4 gap-8 mb-12">
-            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
+            <a
+              href="mailto:erichardin.xp@gmail.com"
+              className="bg-gray-800/50 p-6 rounded-lg border border-gray-700"
+            >
               <Mail className="text-blue-400 mx-auto mb-4" size={32} />
               <h3 className="text-lg font-semibold mb-2">Gmail</h3>
               <p className="text-gray-400">erichardin.xp</p>
-            </div>
-            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
+            </a>
+            <a
+              href="https://github.com/x-dravon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800/50 p-6 rounded-lg border border-gray-700"
+            >
               <Github className="text-blue-400 mx-auto mb-4" size={32} />
               <h3 className="text-lg font-semibold mb-2">GitHub</h3>
               <p className="text-gray-400">@x-dravon</p>
-            </div>
-            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
+            </a>
+            <a
+              href="https://discord.com/users/x_dravon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800/50 p-6 rounded-lg border border-gray-700"
+            >
               <FaDiscord className="text-blue-400 mx-auto mb-4" size={32} />
               <h3 className="text-lg font-semibold mb-2">Discord</h3>
               <p className="text-gray-400">@x_dravon</p>
-            </div>
-            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700">
+            </a>
+            <a
+              href="https://t.me/x_dravon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-800/50 p-6 rounded-lg border border-gray-700"
+            >
               <FaTelegram className="text-blue-400 mx-auto mb-4" size={32} />
               <h3 className="text-lg font-semibold mb-2">Telegram</h3>
               <p className="text-gray-400">@x_dravon</p>
-            </div>
+            </a>
           </div>
 
           <a
