@@ -228,7 +228,7 @@ export default function Portfolio() {
 
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             {/* Projects List */}
-            <div className="space-y-8">
+            <div className="space-y-4">
               {Projects.map((project, index) => (
                 <div
                   key={project.id}
